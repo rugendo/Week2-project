@@ -1,7 +1,10 @@
 h1 {
     color: blue;
+    font-size: larger;
+    font-style: italic;
 }
 
 p {
     font-size: medium;
+    line-height: normal;
 }
