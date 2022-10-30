@@ -1,1 +1,4 @@
-console.log("get the akan name")
+//console.log("get the akan name")
+
+const maleNames = ("Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame")
+
