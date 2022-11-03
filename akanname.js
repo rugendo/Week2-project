@@ -3,29 +3,33 @@
 //get the birthday input
 //get the gender input
 //after submitting the information selected, get alert with the Akan name
+const maleNames = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"]
 
-   function getElements() {
-     const dateElements = document.getElementById("birthday");
-     const genderElements = document.getElementById("gender");
+const femaleNames = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"] 
+
+
+   function dateInput() {
+    let bDate = document.getElementById("birthday").innerHTML;  
+     
     
    }
 
-   function getInputs() {
-    const dateElements = input.dateElements;
-    const genderElements = input.genderElements;
-
-    const dateValue = dateElements.value;
-    const genderValue =genderElements.value;
-
+   function genderInput() {
+    let genderValue = document.getElementById("gender").innerHTML;
+    if (genderValue = Male) {
+      return (maleNames);
+      
+    } else {
+      return (femaleNames);
+      
+    }
+  
    }
 
 function submitFunction() {
-    alert(femaleNames)
+  alert(maleNames)
 }
 
 
 
-const maleNames = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"]
 
-
-const femaleNames = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"] 
